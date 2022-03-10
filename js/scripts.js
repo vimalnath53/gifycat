@@ -26,10 +26,10 @@ $("#SearchVal").focus();
 $('#SearchVal').keydown(function(event){ 
     var keyCode = (event.keyCode ? event.keyCode : event.which);   
     if (keyCode == 13) {
-        $('#viewGif').trigger('click');
+        $('#searchGif').trigger('click');
     }
 });
-    $('#viewGif').click(function(){
+    $('#searchGif').click(function(){
         var searchStr = $('#SearchVal').val();
         if(searchStr == '') {
             alert("Please enter something.."); return false;
