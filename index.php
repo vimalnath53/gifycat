@@ -62,7 +62,7 @@
                       <div class="form-group mx-sm-3 mb-2" style="margin: 15px 10px 10px 1px !important;">
                         <input type="text" class="form-control" id="SearchVal" placeholder="Search something..">
                       </div>
-                      <button id="viewGif" type="button" class="btn btn-primary mb-2">Click to view</button>
+                      <button id="searchGif" type="button" class="btn btn-primary mb-2">Click to view</button>
                     </div>
                    
                     <div class="text-center">
