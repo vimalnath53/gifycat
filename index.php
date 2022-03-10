@@ -101,7 +101,7 @@
             </ul>
         </div>
         <div class="col-sm-6 text-right">
-            <em>Displaying 1 to 8 (of 100 posts)</em>
+            <em>Displaying 1 to 10 (of 100 posts)</em>
         </div>
     </div>
 </div>
