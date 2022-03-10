@@ -1,5 +1,5 @@
 <?php
-$inputVal = $_GET['searchval'];
+$inputVal = urlEncode($_GET['searchval']);
 if($inputVal == 'view_trending') {
     //get trending GIF
     $search_url = "https://api.gfycat.com/v1/reactions/populated?tagName=trending";
