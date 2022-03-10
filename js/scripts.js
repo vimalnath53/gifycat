@@ -28,9 +28,9 @@ $('#SearchVal').keydown(function(event){
     if (keyCode == 13) {
         $('#searchGif').trigger('click');
     }
-    if (keycode == 46) {
+    if (keyCode == 190) {
         return false;
-      }
+    }
 });
     $('#searchGif').click(function(){
         var searchStr = ($('#SearchVal').val()).trim();
