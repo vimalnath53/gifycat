@@ -30,7 +30,8 @@ $('#SearchVal').keydown(function(event){
     }
 });
     $('#searchGif').click(function(){
-        var searchStr = $('#SearchVal').val();
+        var searchStr = ($('#SearchVal').val()).trim();
+       if (searchStr.match(/^[a-z0-9_.-\s]+$/i)) {
         if(searchStr == '') {
             alert("Please enter something.."); return false;
         }
@@ -58,6 +59,10 @@ $('#SearchVal').keydown(function(event){
                         alert('There was some error performing the AJAX call!');
                     }
                });
+
+          } else {
+            alert("Enter valid characters to search");return false;
+        }
         });
 
     $('#view_trending').click(function(){
@@ -86,7 +91,6 @@ $('#SearchVal').keydown(function(event){
                });
     });
 
-    
-
-
 });
+
+
